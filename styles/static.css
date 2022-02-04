@@ -1,0 +1,134 @@
+.static {
+  margin-top: 28px;
+}
+
+.static__brandPhone {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* outline: 1px solid red; */
+}
+
+.static__brand {
+  display: flex;
+  margin-bottom: 41px;
+}
+
+.static__brand_dodo {
+  display: block;
+  margin-top: 0;
+}
+
+.static__brand_dodotitle {
+  margin: 0;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.static__brand_dodotext {
+  margin: 0;
+  font-size: 12px;
+}
+
+.static__phone {
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.static__phone_text {
+  margin-top: 0;
+}
+
+.static__phone_style {
+  font-size: 18px;
+  line-height: 25px;
+}
+.static__nav {
+  display: flex;
+  justify-content: space-between;
+}
+.static__nav-block {
+  display: flex;
+  justify-content: space-between;
+  width: 45%;
+  align-items: center;
+  color: black;
+}
+.nav__style {
+  color: #f96900;
+}
+.button {
+  width: 104px;
+  height: 40px;
+  left: 90.19%;
+  right: 0%;
+  top: 65.52%;
+  bottom: 0%;
+  background: #f96900;
+  border-radius: 1000px;
+  border: 0;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+@media screen and (min-width: 768px) {
+  .static__nav-mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .static__phone {
+    display: none;
+  }
+  .static__nav {
+    display: none;
+  }
+  .static__brand_dodotext {
+    display: none;
+  }
+  .static {
+    padding: 0;
+    margin: 0;
+  }
+  .static__brand {
+    margin: 0;
+  }
+  .static__nav-block {
+    display: none;
+  }
+
+  .static__nav-mobile {
+    display: flex;
+    gap: 8px;
+    justify-content: space-between;
+  }
+  .static__nav-mobile-button-on {
+    width: 73px;
+    height: 31px;
+    bottom: 0%;
+    background: #fff0e6;
+    border-radius: 1000px;
+    border: 0;
+    color: #d15700;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+  }
+  .static__nav-mobile-button {
+    width: 73px;
+    height: 31px;
+    bottom: 0%;
+    background: #f3f3f7;
+    border-radius: 1000px;
+    border: 0;
+    color: #464c55;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+  }
+}

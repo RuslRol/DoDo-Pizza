@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DODO PIZZA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/index.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="static">
+        <div class="static__brandPhone">
+          <div class="static__brand">
+            <div><img src="./img/logo.svg" alt="logo" /></div>
+            <div class="static__brand_dodo">
+              <h1 class="static__brand_dodotitle">ДОДО ПИЦЦА</h1>
+              <p class="static__brand_dodotext">Сеть пиццерий №1 в России</p>
+            </div>
+          </div>
+
+          <div class="static__phone">
+            <a class="static__phone_style" href="8 800 302-00-60"
+              >8 800 302-00-60</a
+            >
+            <p class="static__phone_text">Звонок бесплатный</p>
+          </div>
+        </div>
+
+        <div class="static__nav">
+          <nav class="static__nav-block">
+            <a href="#pizza">Пицца</a>
+            <a class="nav__link" href="#combo">Комбо</a>
+            <a class="nav__style" href="#zakuski">Закуски</a>
+            <a class="nav__link" href="#desertu">Десерты</a>
+            <a href="#napitki">Напитки</a>
+            <a class="nav__link" href="#tovaru">Другие товары</a>
+          </nav>
+          <button class="button">Корзина</button>
+        </div>
+      </div>
+    </div>
+    <!-- ---------------------------------- -->
+
+    <div class="slider">
+      <div class="container">
+        <div class="slider__picture">
+          <img
+            class="slider__picture_bord slider__picture_opa"
+            src="./img/slideright.png"
+            alt="slideileft"
+          />
+          <img
+            class="slider__picture_bord"
+            src="./img/slidemain.png"
+            alt="slideimain"
+          />
+          <img
+            class="slider__picture_bord slider__picture_opa"
+            src="./img/slideleft.png"
+            alt="slideiright"
+          />
+        </div>
+      </div>
+    </div>
+    <nav class="static__nav-mobile">
+      <button class="static__nav-mobile-button-on" href="#pizza">Пицца</button>
+      <button class="static__nav-mobile-button" href="#combo">Комбо</button>
+      <button class="static__nav-mobile-button" href="#zakuski">Закуски</button>
+      <button class="static__nav-mobile-button" href="#desertu">Десерты</button>
+      <button class="static__nav-mobile-button" href="#napitki">Напитки</button>
+      <button class="static__nav-mobile-button" href="#tovaru">
+        Другие товары
+      </button>
+    </nav>
+
+    <!-- ---------------------------------- -->
+
+    <div class="container">
+      <h2>Новое и популярное</h2>
+      <div class="popular">
+        <div class="popular__card">
+          <img
+            class="popular__card-img"
+            src="./img/popular_pizza1.png"
+            alt="popular_pizza1"
+          />
+          <div class="popular__card-text">
+            <p class="popular__card-name">Цезарь</p>
+            <p class="popular__card-price">от 445 ₽</p>
+          </div>
+        </div>
+        <div class="popular__card">
+          <img
+            class="popular__card-img"
+            src="./img/popular_pizza2.png"
+            alt="popular_pizza2"
+          />
+          <div class="popular__card-text">
+            <p class="popular__card-name">Нежный лосось</p>
+            <p class="popular__card-price">от 495 ₽</p>
+          </div>
+        </div>
+        <div class="popular__card">
+          <img
+            class="popular__card-img"
+            src="./img/popular_pizza3.png"
+            alt="popular_pizza3"
+          />
+          <div class="popular__card-text">
+            <p class="popular__card-name">2 пиццы</p>
+            <p class="popular__card-price">899 ₽</p>
+          </div>
+        </div>
+        <div class="popular__card">
+          <img
+            class="popular__card-img"
+            src="./img/popular_pizza4.png"
+            alt="popular_pizza4"
+          />
+          <div class="popular__card-text">
+            <p class="popular__card-name">Карбонара</p>
+            <p class="popular__card-price">от 395 ₽</p>
+          </div>
+        </div>
+      </div>
+      <!-- ---------------------------------- -->
+
+      <h2>Пицца</h2>
+      <div class="pizza">
+        <div class="tovar__card">
+          <div class="tovar__card-folio">
+            <img class="tovar__card-img" src="./img/pizza1.png" alt="pizza1" />
+          </div>
+          <div>
+            <h3 class="tovar__card-title">Пицца из половинок</h3>
+            <p class="tovar__card-text">
+              Соберите свою пиццу 35 см с двумя разными вкусами
+            </p>
+            <div class="tovar__card-price">
+              <p class="tovar__card-text">от 600 ₽</p>
+              <button class="tovar__card-button pizza__card-button-on">
+                Собрать
+              </button>
+              <button class="tovar__card-button-mobile">от 600 ₽</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="tovar__card">
+          <div class="tovar__card-folio">
+            <img class="tovar__card-img" src="./img/pizza2.png" alt="pizza2" />
+          </div>
+          <div>
+            <h3 class="tovar__card-title">Пепперони-сердце</h3>
+            <p class="tovar__card-text">
+              Пикантная пепперони, моцарелла, томатный соус
+            </p>
+            <div class="tovar__card-price">
+              <p>от 625 ₽</p>
+              <button class="tovar__card-button">Выбрать</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="tovar__card">
+          <div class="tovar__card-folio">
+            <img class="tovar__card-img" src="./img/pizza3.png" alt="pizza3" />
+          </div>
+          <div>
+            <h3 class="tovar__card-title">Пирог-сердце</h3>
+            <p class="tovar__card-text">Ананасы, брусника, сгущенное молоко</p>
+            <div class="tovar__card-price">
+              <p>от 625 ₽</p>
+              <button class="tovar__card-button">Выбрать</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="tovar__card">
+          <div class="tovar__card-folio">
+            <img class="tovar__card-img" src="./img/pizza4.png" alt="pizza4" />
+          </div>
+          <div>
+            <h3 class="tovar__card-title">Чиззи чеддер</h3>
+            <p class="tovar__card-text">
+              Ветчина, сыр чеддер, сладкий перец, моцарелла, томатный соус,
+              чеснок, итальянские травы
+            </p>
+            <div class="tovar__card-price">
+              <p>от 625 ₽</p>
+              <button class="tovar__card-button">Выбрать</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="tovar__card">
+          <div class="tovar__card-folio">
+            <img class="tovar__card-img" src="./img/pizza5.png" alt="pizza5" />
+          </div>
+          <div>
+            <h3 class="tovar__card-title">Цыпленок блю чиз</h3>
+            <p class="tovar__card-text">
+              Цыпленок, сыр блю чиз, томаты, моцарелла, соус альфредо
+            </p>
+            <div class="tovar__card-price">
+              <p>от 445 ₽</p>
+              <button class="tovar__card-button">Выбрать</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="tovar__card">
+          <div class="tovar__card-folio">
+            <img class="tovar__card-img" src="./img/pizza6.png" alt="pizza6" />
+          </div>
+          <div>
+            <h3 class="tovar__card-title">Нежный лосось</h3>
+            <p class="tovar__card-text">
+              Лосось, томаты черри, соус песто, моцарелла, соус альфредо
+            </p>
+            <div class="tovar__card-price">
+              <p>от 495 ₽</p>
+              <button class="tovar__card-button">Выбрать</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="tovar__card">
+          <div class="tovar__card-folio">
+            <img class="tovar__card-img" src="./img/pizza7.png" alt="pizza7" />
+          </div>
+          <div>
+            <h3 class="tovar__card-title">Сырная</h3>
+            <p class="tovar__card-text">
+              Увеличенная порция моцареллы, сыры чеддер и пармезан, соус
+              альфредо
+            </p>
+            <div class="tovar__card-price">
+              <p>от 245 ₽</p>
+              <button class="tovar__card-button">Выбрать</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="tovar__card">
+          <div class="tovar__card-folio">
+            <img class="tovar__card-img" src="./img/pizza8.png" alt="pizza8" />
+          </div>
+          <div>
+            <h3 class="tovar__card-title">Пепперони фреш</h3>
+            <p class="tovar__card-text">
+              Пикантная пепперони, увеличенная порция моцареллы, томаты,
+              томатный соус
+            </p>
+            <div class="tovar__card-price">
+              <p>от 245 ₽</p>
+              <button class="tovar__card-button">Выбрать</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ---------------------------------- -->
+
+      <h2>Комбо</h2>
+      <div class="combo">
+        <div class="tovar__card">
+          <div class="tovar__card-folio">
+            <img
+              class="tovar__card-img"
+              src="./img/combo1-4.png"
+              alt="combo1"
+            />
+          </div>
+          <div>
+            <h3 class="tovar__card-title">Комбо за 599 ₽</h3>
+            <p class="tovar__card-text">
+              Наш хит «Аррива!» или другая пицца 25 см, Додстер, напиток и соус.
+            </p>
+            <div class="tovar__card-price">
+              <p>599 ₽</p>
+              <button class="tovar__card-button pizza__card-button-on">
+                Собрать
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="tovar__card">
+          <div class="tovar__card-folio">
+            <img
+              class="tovar__card-img"
+              src="./img/combo1-4.png"
+              alt="combo2"
+            />
+          </div>
+          <div>
+            <h3 class="tovar__card-title">2 пиццы</h3>
+            <p class="tovar__card-text">
+              Самое популярное комбо из 2 пицц 30 см. Большой выбор
+            </p>
+            <div class="tovar__card-price">
+              <p>899 ₽</p>
+              <button class="tovar__card-button pizza__card-button-on">
+                Собрать
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="tovar__card">
+          <div class="tovar__card-folio">
+            <img
+              class="tovar__card-img"
+              src="./img/combo1-4.png"
+              alt="combo3"
+            />
+          </div>
+          <div>
+            <h3 class="tovar__card-title">2 пиццы и закуска</h3>
+            <p class="tovar__card-text">
+              2 пиццы 25 см и закуска на выбор. Для компании из 2–4 человек
+            </p>
+            <div class="tovar__card-price">
+              <p>799 ₽</p>
+              <button class="tovar__card-button pizza__card-button-on">
+                Собрать
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="tovar__card">
+          <div class="tovar__card-folio">
+            <img
+              class="tovar__card-img"
+              src="./img/combo1-4.png"
+              alt="combo4"
+            />
+          </div>
+          <div>
+            <h3 class="tovar__card-title">Пицца и 2 закуски</h3>
+            <p class="tovar__card-text">
+              Пицца 30 см и 2 закуски на выбор. Для компании из 2–4 человек
+            </p>
+            <div class="tovar__card-price">
+              <p>799 ₽</p>
+              <button class="tovar__card-button pizza__card-button-on">
+                Собрать
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="tovar__card">
+          <div class="tovar__card-folio">
+            <img class="tovar__card-img" src="./img/combo5.png" alt="combo5" />
+          </div>
+          <div>
+            <h3 class="tovar__card-title">Комбо за 999 ₽</h3>
+            <p class="tovar__card-text">
+              3 пиццы 30 см на тонком тесте по суперцене. Выбор пицц ограничен
+            </p>
+            <div class="tovar__card-price">
+              <p>999 ₽</p>
+              <button class="tovar__card-button pizza__card-button-on">
+                Собрать
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ---------------------------------- -->
+
+      <h2>Закуски</h2>
+      <div class="zakuski">
+        <div class="tovar__card">
+          <div class="tovar__card-folio">
+            <img
+              class="tovar__card-img"
+              src="./img/zakuski1-2.png"
+              alt="zakuski1-2"
+            />
+          </div>
+          <div>
+            <h3 class="tovar__card-title">Томатный суп с гренками</h3>
+            <p class="tovar__card-text">
+              Горячий суп с пшеничными гренками на основе фирменного соуса из
+              итальянских томатов
+            </p>
+            <div class="tovar__card-price">
+              <p>99 ₽</p>
+              <button class="tovar__card-button pizza__card-button-on">
+                В корзину
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="tovar__card">
+          <div class="tovar__card-folio">
+            <img
+              class="tovar__card-img"
+              src="./img/zakuski1-2.png"
+              alt="zakuski1-2"
+            />
+          </div>
+          <div>
+            <h3 class="tovar__card-title">Томатный суп с митболами</h3>
+            <p class="tovar__card-text">
+              Горячий суп c митболами из говядины и маслинами на основе
+              фирменного соуса из итальянских томатов
+            </p>
+            <div class="tovar__card-price">
+              <p>149 ₽</p>
+              <button class="tovar__card-button pizza__card-button-on">
+                В корзину
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="tovar__card">
+          <div class="tovar__card-folio">
+            <img
+              class="tovar__card-img"
+              src="./img/zakuski3.png"
+              alt="zakuski3"
+            />
+          </div>
+          <div>
+            <h3 class="tovar__card-title">Додстер</h3>
+            <p class="tovar__card-text">
+              Легендарная горячая закуска с цыпленком, томатами, моцареллой,
+              соусом ранч в тонкой пшеничной лепешке
+            </p>
+            <div class="tovar__card-price">
+              <p>159 ₽</p>
+              <button class="tovar__card-button pizza__card-button-on">
+                В корзину
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="tovar__card">
+          <div class="tovar__card-folio">
+            <img
+              class="tovar__card-img"
+              src="./img/zakuski4.png"
+              alt="zakuski4"
+            />
+          </div>
+          <div>
+            <h3 class="tovar__card-title">Острый Додстер</h3>
+            <p class="tovar__card-text">
+              Горячая закуска с острым цыпленком, перцем халапеньо, солеными
+              огурчиками, томатами, моцареллой и соусом барбекю в тонкой
+              пшеничной лепешке
+            </p>
+            <div class="tovar__card-price">
+              <p>159 ₽</p>
+              <button class="tovar__card-button pizza__card-button-on">
+                В корзину
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="tovar__card">
+          <div class="tovar__card-folio">
+            <img
+              class="tovar__card-img"
+              src="./img/zakuski5.png"
+              alt="zakuski5"
+            />
+          </div>
+          <div>
+            <h3 class="tovar__card-title">Додстер Чипотле</h3>
+            <p class="tovar__card-text">
+              Горячая закуска с пикантным соусом чипотле из копченых перчиков,
+              цыпленком, томатами, моцареллой в тонкой пшеничной лепешке
+            </p>
+            <div class="tovar__card-price">
+              <p>159 ₽</p>
+              <button class="tovar__card-button pizza__card-button-on">
+                В корзину
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ---------------------------------- -->
+
+      <h2>Десерты</h2>
+      <div class="desert">
+        <div class="tovar__card">
+          <div class="tovar__card-folio">
+            <img
+              class="tovar__card-img"
+              src="./img/desert1.png"
+              alt="desert1"
+            />
+          </div>
+          <div>
+            <h3 class="tovar__card-title">Яблочный пирог</h3>
+            <p class="tovar__card-text">
+              Десерт из песочного теста с яблочной начинкой. Может содержать
+              изюм
+            </p>
+            <div class="tovar__card-price">
+              <p>99 ₽</p>
+              <button class="tovar__card-button pizza__card-button-on">
+                В корзину
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="tovar__card">
+          <div class="tovar__card-folio">
+            <img
+              class="tovar__card-img"
+              src="./img/desert2.png"
+              alt="desert2"
+            />
+          </div>
+          <div>
+            <h3 class="tovar__card-title">Чизкейк Нью-Йорк</h3>
+            <p class="tovar__card-text">
+              Классический американский творожный десерт
+            </p>
+            <div class="tovar__card-price">
+              <p>149 ₽</p>
+              <button class="tovar__card-button pizza__card-button-on">
+                В корзину
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="tovar__card">
+          <div class="tovar__card-folio">
+            <img
+              class="tovar__card-img"
+              src="./img/desert3.png"
+              alt="desert3"
+            />
+          </div>
+          <div>
+            <h3 class="tovar__card-title">Фонданы, 2 шт</h3>
+            <p class="tovar__card-text">
+              Два десерта с хрустящей корочкой и топлёной шоколадной начинкой
+            </p>
+            <div class="tovar__card-price">
+              <p>159 ₽</p>
+              <button class="tovar__card-button pizza__card-button-on">
+                В корзину
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="tovar__card">
+          <div class="tovar__card-folio">
+            <img
+              class="tovar__card-img"
+              src="./img/desert4-5.png"
+              alt="desert4"
+            />
+          </div>
+          <div>
+            <h3 class="tovar__card-title">Молочный коктейль с печеньем Орео</h3>
+            <p class="tovar__card-text">
+              Напиток из молока и мороженого с добавлением дробленого печенья
+              «Орео»
+            </p>
+            <div class="tovar__card-price">
+              <p>159 ₽</p>
+              <button class="tovar__card-button pizza__card-button-on">
+                В корзину
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="tovar__card">
+          <div class="tovar__card-folio">
+            <img
+              class="tovar__card-img"
+              src="./img/desert4-5.png"
+              alt="desert5"
+            />
+          </div>
+          <div>
+            <h3 class="tovar__card-title">Классический молочный коктейль</h3>
+            <p class="tovar__card-text">Напиток из молока и мороженого</p>
+            <div class="tovar__card-price">
+              <p>159 ₽</p>
+              <button class="tovar__card-button pizza__card-button-on">
+                В корзину
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ---------------------------------- -->
+
+      <h2>Напитки</h2>
+      <div class="napitki">
+        <div class="tovar__card">
+          <div class="tovar__card-folio">
+            <img
+              class="tovar__card-img"
+              src="./img/napitki1.png"
+              alt="napitki1"
+            />
+          </div>
+          <div>
+            <h3 class="tovar__card-title">2 Coca-Cola по суперцене</h3>
+            <p class="tovar__card-text">
+              Две классические Coca-Cola по 0,5 литров по выгодной цене, 0,5 л
+            </p>
+            <div class="tovar__card-price">
+              <p>99 ₽</p>
+              <button class="tovar__card-button pizza__card-button-on">
+                В корзину
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="tovar__card">
+          <div class="tovar__card-folio">
+            <img
+              class="tovar__card-img"
+              src="./img/napitki2.png"
+              alt="napitki2"
+            />
+          </div>
+          <div>
+            <h3 class="tovar__card-title">Coca-Cola Orange</h3>
+            <p class="tovar__card-text">0,5 л</p>
+            <div class="tovar__card-price">
+              <p>149 ₽</p>
+              <button class="tovar__card-button pizza__card-button-on">
+                В корзину
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="tovar__card">
+          <div class="tovar__card-folio">
+            <img
+              class="tovar__card-img"
+              src="./img/napitki3.png"
+              alt="napitki3"
+            />
+          </div>
+          <div>
+            <h3 class="tovar__card-title">Coca-Cola Zero</h3>
+            <p class="tovar__card-text">0,5 л</p>
+            <div class="tovar__card-price">
+              <p>159 ₽</p>
+              <button class="tovar__card-button pizza__card-button-on">
+                В корзину
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="tovar__card">
+          <div class="tovar__card-folio">
+            <img
+              class="tovar__card-img"
+              src="./img/napitki4.png"
+              alt="napitki4"
+            />
+          </div>
+          <div>
+            <h3 class="tovar__card-title">Coca-Cola</h3>
+            <p class="tovar__card-text">0,5 л</p>
+            <div class="tovar__card-price">
+              <p>159 ₽</p>
+              <button class="tovar__card-button pizza__card-button-on">
+                В корзину
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="tovar__card">
+          <div class="tovar__card-folio">
+            <img
+              class="tovar__card-img"
+              src="./img/napitki5.png"
+              alt="napitki5"
+            />
+          </div>
+          <div>
+            <h3 class="tovar__card-title">Coca-Cola Vanilla</h3>
+            <p class="tovar__card-text">0,5 л</p>
+            <div class="tovar__card-price">
+              <p>159 ₽</p>
+              <button class="tovar__card-button pizza__card-button-on">
+                В корзину
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ---------------------------------- -->
+
+    <div class="footer">
+      <div class="footer__block">
+        <div class="footer__blockup">
+          <div class="footer__blockup-card">
+            <h5 class="footer__blockup-card-title">Додо Пицца</h5>
+            <p class="footer__blockup-card-text">
+              О нас <br />
+              Додо-книга <br />
+              Блог «Сила ума» <br />
+              Додо ИС
+            </p>
+          </div>
+
+          <div class="footer__blockup-card">
+            <h5 class="footer__blockup-card-title">Работа</h5>
+            <p class="footer__blockup-card-text">
+              В пиццерии <br />
+              В контакт- центре
+            </p>
+          </div>
+
+          <div class="footer__blockup-card">
+            <h5 class="footer__blockup-card-title">Партнерам</h5>
+            <p class="footer__blockup-card-text">
+              Франшиза <br />
+              Инвестиции <br />
+              Поставщикам <br />
+              Предложить помещение
+            </p>
+          </div>
+
+          <div class="footer__blockup-card">
+            <h5 class="footer__blockup-card-title">Это интересно</h5>
+            <p class="footer__blockup-card-text">
+              Экскурсии и мастер-классы <br />
+              Корпоративные заказы
+            </p>
+          </div>
+
+          <div class="footer__blockup-card">
+            <div class="footer__blockup-card-right">
+              <p class="footer__blockup-mobile">feedback@dodopizza.com</p>
+              <div class="footer__blockup-card-playstore">
+                <img src="./img/footer-google-play.png" alt="google-play" />
+                <img src="./img/footer-app-store.png" alt="app-store" />
+              </div>
+              <div class="footer__blockup-contact">
+                <a class="footer__blockup-phone" href="8 800 302-00-60"
+                  >8-800-302-00-60</a
+                >
+                <p class="footer__blockup-phone-text">Звонок бесплатный</p>
+                <p class="footer__blockup-mail">feedback@dodopizza.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer__blockmedium">
+          <div>
+            <h2 class="footer__blockmedium-title">1 396 362 874 ₽</h2>
+            <p class="footer__blockmedium-text">
+              Выручка российской сети в этом <br />
+              месяце. В прошлом — 2 460 305 416 ₽
+            </p>
+          </div>
+          <div>
+            <h2 class="footer__blockmedium-title">688 пиццерий</h2>
+            <p class="footer__blockmedium-text">
+              в 14 странах, включая Китай, <br />
+              США и Великобританию
+            </p>
+          </div>
+        </div>
+
+        <div class="footer__blockdown">
+          <div class="footer__blockdown-logo">
+            <h2 class="footer__blockdown-logo-title">ДОДО ПИЦЦА</h2>
+            <p class="footer__blockdown-logo-year">© 2021</p>
+          </div>
+
+          <div class="footer__blockdown-pravo">
+            <p>Правовая информация</p>
+            <p class="footer__blockdown-pravo-text">Калорийность и состав</p>
+            <p>Помощь</p>
+          </div>
+
+          <div class="footer__blockdown-social">
+            <a href="#"><img src="./img/footer-fb.svg" alt="social-fb" /></a>
+            <a href="#"><img src="./img/footer-inst.svg" alt="social-fb" /></a>
+            <a href="#"><img src="./img/footer-ok.svg" alt="social-fb" /></a>
+            <a href="#"><img src="./img/footer-vk.svg" alt="social-fb" /></a>
+            <a href="#"
+              ><img src="./img/footer-youtube.svg" alt="social-fb"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

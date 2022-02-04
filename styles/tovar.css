@@ -1,0 +1,89 @@
+.tovar__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+  .tovar__card-button-mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 532px) {
+  .tovar__card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-bottom: 1px solid red;
+  }
+
+  .tovar__card-folio {
+    display: flex;
+    align-items: center;
+  }
+  .tovar__card-img {
+    width: 115px;
+    height: 115px;
+  }
+  .tovar__card-button {
+    display: none;
+  }
+  .tovar__card-button {
+    display: none;
+  }
+  .tovar__card-button-mobile {
+    width: 96px;
+    height: 32px;
+    bottom: 0%;
+    background: #f96900;
+    border-radius: 1000px;
+    border: 0;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    padding: 7px 20px 6px;
+  }
+}
+
+.tovar__card-img {
+  margin: 0 15px 5px 15px;
+}
+
+.tovar__card-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  margin-top: 16px;
+  margin-bottom: 4px;
+}
+
+.tovar__card-text {
+  font-size: 14px;
+  line-height: 19px;
+  color: #73798c;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.tovar__card-price {
+  display: flex;
+  margin-right: 20px;
+  justify-content: space-between;
+}
+
+.tovar__card-button {
+  width: 120px;
+  height: 40px;
+  bottom: 0%;
+  background: #fff0e6;
+  border-radius: 1000px;
+  border: 0;
+  color: #d15700;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+}
